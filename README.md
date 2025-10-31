@@ -40,10 +40,23 @@ This package provides a simple and efficient interface for running real-time fac
 
 ---
 
+## 🧠 Example KYC Simulation
+
+In the included example app, users select an image for **face verification**.  
+The app analyzes the face and displays an appropriate UI response depending on confidence level:
+
+| Confidence Range | Status Message | Example Image |
+|------------------|----------------|----------------|
+| ≤0.2 | 完全不像人臉呀 | <img src="zero.png" width="360" height="780" alt="Low confidence" /> |
+| 0.2–0.8 | 你確定是證件照嗎？ / 臉部辨識不出來 | <img src="yousure.png" width="360" height="780" alt="Medium confidence" /> |
+| ≥0.8 | 可上傳 | <img src="upload.png" width="360" height="780" alt="Upload ready" /> |
+
+---
+
 ## 🧩 Installation
 
 Add the following line to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_face_detector: ^0.0.2
+  flutter_face_detector: ^0.0.3
