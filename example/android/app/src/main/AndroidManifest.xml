@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <!-- 🔧 新增這行：Android 13 以上要求通知權限 -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    
     <application
         android:label="flutter_face_detector_example"
         android:name="${applicationName}"
