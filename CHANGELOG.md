@@ -1,3 +1,6 @@
+## 0.0.4
+- upgrade ios min sdk to 13
+
 ## 0.0.3
 - Updated example app to simulate a real **KYC ID verification** workflow.  
 - Enhanced UI/UX with clearer confidence feedback and upload button logic.  

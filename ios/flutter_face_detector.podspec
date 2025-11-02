@@ -15,7 +15,7 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.platform = :ios, '14.0'
+  s.platform = :ios, '13.0'
 
   # ✅ 新增這行：導入 MediaPipeTasksVision
   s.dependency 'MediaPipeTasksVision', '0.10.14'

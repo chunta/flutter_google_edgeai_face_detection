@@ -7,6 +7,16 @@ This package provides a simple and efficient interface for running real-time fac
 
 ## 🆕 Release Notes
 
+## 0.0.4 - Downgrade iOS min deployment SDK
+- upgrade ios min sdk to 13
+
+## 0.0.3 - Improve example
+- Updated example app to simulate a real **KYC ID verification** workflow.  
+- Enhanced UI/UX with clearer confidence feedback and upload button logic.  
+- Improved confidence parsing (supports values like `"92.61%"`).  
+- Added visual styling and status indicators for different detection levels.
+
+
 ### **0.0.2 – Stable Preview Update**
 - Fixed package metadata and pubspec formatting for pub.dev compliance.  
 - Added full README, CHANGELOG, and LICENSE files.  
