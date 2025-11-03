@@ -17,7 +17,8 @@ class MethodChannelFlutterFaceDetector extends FlutterFaceDetectorPlatform {
   }
 
   @override
-  Future<Map<String, dynamic>> faceDetectionFromImage(Uint8List imageData) async {
+  Future<Map<String, dynamic>> faceDetectionFromImage(
+      Uint8List imageData) async {
     final result = await methodChannel.invokeMethod<dynamic>(
       'faceDetectionFromImage',
       <dynamic, dynamic>{'image': imageData}, // 👈 明確用 dynamic key/value

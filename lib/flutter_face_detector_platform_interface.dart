@@ -10,7 +10,8 @@ abstract class FlutterFaceDetectorPlatform extends PlatformInterface {
 
   static final Object _token = Object();
 
-  static FlutterFaceDetectorPlatform _instance = MethodChannelFlutterFaceDetector();
+  static FlutterFaceDetectorPlatform _instance =
+      MethodChannelFlutterFaceDetector();
 
   /// The default instance of [FlutterFaceDetectorPlatform] to use.
   ///
@@ -30,6 +31,7 @@ abstract class FlutterFaceDetectorPlatform extends PlatformInterface {
   }
 
   Future<Map<String, dynamic>> faceDetectionFromImage(Uint8List imageData) {
-    throw UnimplementedError('faceDetectionFromImage(Uint8List imageData) has not been implemented.');
+    throw UnimplementedError(
+        'faceDetectionFromImage(Uint8List imageData) has not been implemented.');
   }
 }

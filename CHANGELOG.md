@@ -1,3 +1,6 @@
+## 0.0.5
+- fix dart format issue
+
 ## 0.0.4
 - upgrade ios min sdk to 13
 
@@ -11,7 +14,3 @@
 - Stable release with complete metadata and build configuration.  
 - Fixed incorrect package information and missing README/LICENSE files.  
 - ✅ This is the first usable version.
-
-## 0.0.1
-- ⚠️ **Deprecated / Do not use.**  
-- Initial upload with incomplete configuration and missing documentation.

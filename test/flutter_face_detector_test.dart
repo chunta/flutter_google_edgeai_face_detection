@@ -9,7 +9,6 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 class MockFlutterFaceDetectorPlatform
     with MockPlatformInterfaceMixin
     implements FlutterFaceDetectorPlatform {
-
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
 
@@ -18,7 +17,8 @@ class MockFlutterFaceDetectorPlatform
 }
 
 void main() {
-  final FlutterFaceDetectorPlatform initialPlatform = FlutterFaceDetectorPlatform.instance;
+  final FlutterFaceDetectorPlatform initialPlatform =
+      FlutterFaceDetectorPlatform.instance;
 
   test('$MethodChannelFlutterFaceDetector is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelFlutterFaceDetector>());
@@ -26,7 +26,8 @@ void main() {
 
   test('getPlatformVersion', () async {
     FlutterFaceDetector flutterFaceDetectorPlugin = FlutterFaceDetector();
-    MockFlutterFaceDetectorPlatform fakePlatform = MockFlutterFaceDetectorPlatform();
+    MockFlutterFaceDetectorPlatform fakePlatform =
+        MockFlutterFaceDetectorPlatform();
     FlutterFaceDetectorPlatform.instance = fakePlatform;
 
     expect(await flutterFaceDetectorPlugin.getPlatformVersion(), '42');

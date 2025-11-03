@@ -129,8 +129,8 @@ class _MyAppState extends State<MyApp> {
                           decoration: BoxDecoration(
                             color: _statusColor.withOpacity(0.1),
                             borderRadius: BorderRadius.circular(8),
-                            border:
-                                Border.all(color: _statusColor.withOpacity(0.3)),
+                            border: Border.all(
+                                color: _statusColor.withOpacity(0.3)),
                           ),
                           child: Text(
                             _statusText,
