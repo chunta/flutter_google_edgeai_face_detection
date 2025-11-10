@@ -1,3 +1,7 @@
+## 0.0.6
+- Clean up pubspec file
+- Remove misleading information from README.md
+
 ## 0.0.5
 - fix dart format issue
 
