@@ -2,7 +2,7 @@ name: flutter_face_detector
 description: >
   A Flutter plugin that integrates Google Edge AI (MediaPipe Tasks Vision)
   to perform fast and offline face detection directly on Android devices.
-version: 0.0.6
+version: 0.0.7
 homepage: https://github.com/chunta/flutter_google_edgeai_face_detection
 
 environment:

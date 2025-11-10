@@ -1,4 +1,4 @@
-## 0.0.6
+## 0.0.7
 - Clean up pubspec file
 - Remove misleading information from README.md
 

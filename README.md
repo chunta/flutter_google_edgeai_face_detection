@@ -7,8 +7,12 @@ This package provides a simple and efficient interface for running real-time fac
 
 ## 🆕 Release Notes
 
+## 0.0.7
+- Clean up pubspec file
+- Remove misleading information from README.md
+
 ## 0.0.5 - Dart format
-- fix dart format issue
+- Fix dart format issue
 
 ## 0.0.4 - Downgrade iOS min deployment SDK
 - upgrade ios min sdk to 13
